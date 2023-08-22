@@ -20,5 +20,5 @@ I've provided a minimized example solution on how to accomplish it so that you c
 
 ![Word Document](./images/README_WORD.JPG)
 
-This could be done sequentially by saving the CTAB information in a table and processing each one at a time as a `temp.sdf` to `temp.cdx` if space is at a premium on the computer it's being run on.  In this case, the sdf to cdx function would be modified to process as a single file and then run the `dataframe.apply( lambda x: sdfToCDX( table, x.ID, x.rowID, colID )  )` as an example.
+In memory file maniuplation failed for me and required actual files to to be generated.  If hard drive space is a premium, this could be done sequentially by saving the CTAB information in a table and processing each one at a time as a `temp.sdf` to `temp.cdx`.  In this case, the sdf to cdx function would be modified to process as a single file and then run the `dataframe.apply( lambda x: sdfToCDX( table, x.ID, x.rowID, colID )  )` as an example.
 
