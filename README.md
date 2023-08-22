@@ -16,7 +16,7 @@ I've provided a example solution on how to accomplish it.
    - I did this by adding a DB call to get the structures from our registration DB from the list in an Word Table
 4. Open a terminal in the working directory and excecute: `python .\cdx_to_Word_Table.py`
 
-###### Table in Word Docx
+###### Output Table in Microsoft Word Docx with ChemDraw OLEObjects as the Molecule
 
 ![Word Document](./images/README_WORD.JPG)
 
