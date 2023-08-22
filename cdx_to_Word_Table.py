@@ -57,7 +57,7 @@ table.AutoFormat( 36 )
 idCol = table.Columns(1) # ID as column 1
 molCol = table.Columns(2) # molecule as column 2
 idCol.Cells(1).Range.Text = "ID" # Column Headers
-molCol.Cells(1).Range.Text = "Mol" # Column Headers
+molCol.Cells(1).Range.Text = "ChemDraw Mol" # Column Headers
 
 df = df.reset_index( drop = True ) # clean index
 df[ 'DataRow' ] = df.index + 2 # sets desired row of insertion
