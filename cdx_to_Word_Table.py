@@ -8,7 +8,7 @@ import os
 
 # controls
 # absolute paths are required.  Relative paths fail.
-dirPath = "C:/workingDir" # makes this your path where the folders & files are.  Ex: "C:/Users/<username>/cdxToWordTable"
+dirPath = "C:/workingDir/" # makes this your path where the folders & files are.  Ex: "C:/Users/<username>/cdxToWordTable"
 fileDocSavePath = dirPath + "word/tabled.docx"
 sdfPath = dirPath + "sdf/"
 cdxPath = dirPath + "cdx/"
