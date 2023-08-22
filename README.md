@@ -10,11 +10,12 @@ I've provided a minimized example solution on how to accomplish it so that you c
 2. Microsoft Word and license.
 
 ### How To
-1. This implementation assumes that the files are in `C:/workingDir`.  Change this `dirPath` variable to match the folder that you’re running it in.
-2. Make sure the sub folders are in place or change code appropriately: `sdf`, `cdx`, `word`
-3. Populate the sdf folder with desired named files with single structures with the filename as the ID.
+1. This implementation assumes that the files are in `C:/workingDir/`.  Change this `dirPath` variable to match the folder that you’re running it in.
+   - Absolute path is required.  Relative paths fail.
+3. Make sure the sub folders are in place or change code appropriately: `sdf`, `cdx`, `word`
+4. Populate the sdf folder with desired named files with single structures with the filename as the ID.
    - I did this by adding a DB call to get the structures from our registration DB from the list in an Word Table
-4. Open a terminal in the working directory and excecute: `python .\cdx_to_Word_Table.py`
+5. Open a terminal in the working directory and excecute: `python .\cdx_to_Word_Table.py`
 
 ###### Output Table in Microsoft Word Docx with ChemDraw OLEObjects as the Molecule
 
