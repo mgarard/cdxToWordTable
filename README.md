@@ -16,5 +16,5 @@ I've provided a example solution on how to accomplish it.
    - I did this by adding a DB call to get the structures from our registration DB from the list in an Word Table
 4. Open a terminal in the working directory and excecute: `python .\cdx_to_Word_Table.py`
 
-![Word Document]([foo.jpg](./images/README_WORD.JPG)
-https://github.com/mgarard/cdxToWordTable/blob/main/images/README_WORD.JPG
+![Word Document](./images/README_WORD.JPG)
+
