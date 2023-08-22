@@ -1,7 +1,7 @@
 # cdxToWordTable
 Convert SDF to cdx format and insert ChemDraw Object in a Microsoft Word ( docx ) Table
 
-This issue arises yearly for our Chemists as they write patents and every year. They want to import the structure as a chemdraw object in the orientation that it was registered in.  Many tools including the ChemDraw for Excel plugin have issue.  Either they cannot import a structure or if they do, it's essentially a served object.  For example, our chemist converted SMILES to structure so it didn't match registration but when extracted from Excel, it was not actually and OLEObject in the cell when saved.  It was linked to the ChemDraw addin which activated upon opneing.  Not finding any solutions on the web, I explored this problem learning the VBA through Win32 tools to investigate the structure of the desired object.
+This issue arises yearly for our Chemists as they write patents every year. They want to import the structure as a chemdraw object in the orientation that it was registered in.  Many tools including the ChemDraw for Excel plugin have issue.  Either they cannot import a structure or if they do, it's essentially a served object.  For example, our chemist converted SMILES to structure so it didn't match registration but when extracted from Excel, it was not actually and OLEObject in the cell when saved.  It was linked to the ChemDraw addin which activated upon opneing.  Not finding any solutions on the web, I explored this problem learning the VBA through Win32 tools to investigate the structure of the desired object.
 
 I've provided a example solution on how to accomplish it.
 
