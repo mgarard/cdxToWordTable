@@ -69,6 +69,6 @@ try:
 except: pass
 
 # save and close
-doc.SaveAs( fileDocSavePath + "newWord.docx" )
+doc.SaveAs( fileDocSavePath )
 doc.Close(False)
 word.Quit()
